@@ -10,6 +10,9 @@ Human footprint is one of the relatively new physiological biometrics due to its
 
 ## How to use this dataset.
 
+### Overview of the dataset
+![image3][image-3]
+
 ### Get the dataset   
 ```bash
 git clone git@github.com:goodrahstar/footprint-database.git
@@ -68,7 +71,7 @@ doi = {10.17485/ijst/2016/v9i44/105167}
 }
 ```
 
-# Benchmark
+## Benchmark
 We performed lots of correlations on the footprint images using various features on the left and right footprint. Also build relations between the height and weight using the foot image.
 ![image2][image-2]
 
@@ -89,3 +92,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 
 [image-1]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image1.png?raw=true "Preprocessing"
 [image-2]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image2.png?raw=true "validation"
+[image-3]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image3.png?raw=true "Overview"
