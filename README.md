@@ -4,6 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+![image4][image-4]
 
 ## Why we made Footprint-Database
 Human footprint is one of the relatively new physiological biometrics due to its stable and unique characteristics. The texture and foot shape information of footprint offers one of the powerful means in personal recognition.
@@ -93,3 +94,4 @@ THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR I
 [image-1]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image1.png?raw=true "Preprocessing"
 [image-2]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image2.png?raw=true "validation"
 [image-3]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image3.png?raw=true "Overview"
+[image-4]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image4.png?raw=true "intro"
