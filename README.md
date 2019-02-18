@@ -1,24 +1,29 @@
 # Footprint-Database
-A Footprint database-in scanned and dactyloscopic format
+
+`Footprint-Database` is a dataset of footprint images of 21 individuals captured using flatbed scanner and 32 individuals with the dactloscopic images (including left and right footprint).
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-
-`Footprint-Database` is a dataset of footprint images of 21 individuals captured using flatbed scanner and 32 individuals with the dactloscopic images (including left and right footprint).
 
 ## Why we made Footprint-Database
 Human footprint is one of the relatively new physiological biometrics due to its stable and unique characteristics. The texture and foot shape information of footprint offers one of the powerful means in personal recognition.
 
 ## How to use this dataset.
-### Basic image pre-proceessing on the footprint images to perform feature extraction
-![image2][image-2]
 
+### Get the dataset   
+```bash
+git clone git@github.com:goodrahstar/footprint-database.git
+```
+
+
+### Basic image pre-proceessing on the footprint images to perform feature extraction
+![image1][image-1]
 
 
 ## To Serious Machine Learning Researchers
 For those who are interested to explore the domain of biomtrics and implement a human identification system using footprint images can make uses of following research in which we used this database.
 
-
+### 1.
 ```latex
 
 Rohit Khokher, R.C. Singh, Rahul Kumar, 
@@ -27,7 +32,7 @@ International Conference on Science and Engineering of Materials (ICSEM 2014),
 DOI: 10.1002/masy.201400045 
 ```
 
-
+### 2.
 ```latex
 
 @Inbook{Khokher2017,
@@ -48,7 +53,7 @@ url="https://doi.org/10.1007/978-981-10-3758-0_14"
 }
 ```
 
-
+### 3.
 ```latex
 
 @article{article,
@@ -63,7 +68,13 @@ doi = {10.17485/ijst/2016/v9i44/105167}
 }
 ```
 
+# Benchmark
+We performed lots of correlations on the footprint images using various features on the left and right footprint. Also build relations between the height and weight using the foot image.
+![image2][image-2]
 
+
+## Contact
+To discuss the dataset, please reachout to me at `rahul@botsupply.ai`
 
 
 ## License
@@ -76,5 +87,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-
-[image-2]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image1.png?raw=true "Preprocessing"
+[image-1]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image1.png?raw=true "Preprocessing"
+[image-2]: https://github.com/goodrahstar/footprint-database/blob/master/docs/image2.png?raw=true "validation"
