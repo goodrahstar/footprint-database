@@ -8,7 +8,7 @@
 ## Why we made Footprint-Database
 Human footprint is one of the relatively new physiological biometrics due to its stable and unique characteristics. The texture and foot shape information of footprint offers one of the powerful means in personal recognition.
 
-## How to use this dataset.
+## How to use this dataset
 
 ### Overview of the dataset
 ![image3][image-3]
